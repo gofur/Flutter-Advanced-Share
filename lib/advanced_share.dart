@@ -48,7 +48,8 @@ class AdvancedShare {
   @protected
   static Future<int> exec(params) async {
     try {
-      return await _channel.invokeMethod('share', params);
+      var temp = await _channel.invokeMethod('share', params);
+      return temp;
     } catch (e) {
       return await Future<int>.value(0);
     }

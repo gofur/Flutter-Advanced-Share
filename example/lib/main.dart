@@ -38,16 +38,15 @@ class _MyAppState extends State<MyApp> {
   }
 
   void whatsapp() {
-    AdvancedShare
-        .whatsapp(msg: "It's okay :)", url: BASE64_IMAGE)
+    AdvancedShare.whatsapp(msg: "It's okay :)", url: BASE64_IMAGE)
         .then((response) {
       handleResponse(response, appName: "Whatsapp");
     });
   }
 
   void gmail() {
-    AdvancedShare
-        .gmail(subject: "Advanced Share", msg: "Mail body", url: BASE64_IMAGE)
+    AdvancedShare.gmail(
+            subject: "Advanced Share", msg: "Mail body", url: BASE64_IMAGE)
         .then((response) {
       handleResponse(response, appName: "Gmail");
     });

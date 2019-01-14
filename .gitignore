@@ -10,3 +10,8 @@ build/
 ios/.generated/
 packages
 pubspec.lock
+example/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+example/ios/Runner.xcworkspace/xcuserdata/
+example/ios/Flutter/
+example/ios/.symlinks/
+example/android/.settings/
