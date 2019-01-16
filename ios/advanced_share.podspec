@@ -19,5 +19,6 @@ A new flutter plugin project.
   s.ios.deployment_target = '8.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.static_framework = true
+  s.swift_version = '4.0'
 end
 
