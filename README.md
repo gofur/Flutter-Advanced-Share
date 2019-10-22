@@ -1,5 +1,5 @@
 # Advanced Share Plugin
-Share text and file your flutter app.
+Share text, image and file your flutter app.
 
 #### Compatible
 Only android because i dont have a Mac. Can you give me a mac for gift :)
